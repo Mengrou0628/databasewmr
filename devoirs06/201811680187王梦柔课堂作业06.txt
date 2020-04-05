@@ -1,0 +1,26 @@
+常见编译型高级编程语言数据库接口：ODBC 
+常见解释型高级编程语言数据库接口：Python 语言连接数据库 Python DB-API
+Python编程语言连接数据库的不同方式比较：
+两种方法进行数据库的连接分别是PyMySQL和mysql.connector
+PyMySQL ： 是封装了MySQL驱动的Python驱动，一个能使Python连接到MySQL的库，使用此方法前要先安装PyMySQL
+代码为：
+import pymysql
+#连接数据库
+conn=pymysql.connect(host = ‘127.0.0.1’ # 连接名称，默认127.0.0.1 
+,user = ‘root’ # 用户名
+,passwd=‘password’ # 密码
+,port= 3306 # 端口，默认为3306
+,db=‘test’ # 数据库名称
+,charset=‘utf8’ # 字符编码
+)
+mysql-connector-python：是MySQL官方的纯Python驱动；安装mysql.connector
+代码为：
+import mysql.connector
+conn=mysql.connector.connect(host = ‘127.0.0.1’ # 连接名称，默认127.0.0.1 
+,user = ‘root’ # 用户名
+,passwd=‘password’ # 密码
+,port= 3306 # 端口，默认为3306
+,db=‘test’ # 数据库名称
+,charset=‘utf8’ # 字符编码
+)
+
