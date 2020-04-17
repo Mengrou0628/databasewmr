@@ -35,6 +35,8 @@ while($row = mysqli_fetch_array($fetch_stopwords, MYSQLI_ASSOC))
  }
  ?>
 
+显示效果如图1
+
 ### php通过ODBC连接数据库
 
 <?php
@@ -62,6 +64,8 @@ while (odbc_fetch_row($rs))
 odbc_close($conn);
 echo "</table>";
 ?>
+
+显示效果如图2
 
 ### php通过ODBC连接sqlite数据库
 
@@ -91,3 +95,4 @@ odbc_close($conn);
 echo "</table>";
 ?>
 
+显示效果如图3
