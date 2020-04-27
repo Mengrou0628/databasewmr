@@ -1,7 +1,7 @@
 ### 直接用php连接数据库
 
 
-
+```
 <?php
 $dbhost = "localhost";  //MySQL服务器主机地址
 $dbuser = "root";      //MySQL用户名
@@ -34,12 +34,12 @@ while($row = mysqli_fetch_array($fetch_stopwords, MYSQLI_ASSOC))
      echo $key.":".$value."<br>";	 
  }
  ?>
-
+```
 显示效果如图1
 ![avatar](https://github.com/Mengrou0628/databasewmr/raw/master/img/%E5%9B%BE6.1.png)
 
 ### php通过ODBC连接数据库
-
+```
 <?php
 $conn=odbc_connect('gpsmysql','root','');
 if (!$conn)
@@ -65,11 +65,11 @@ while (odbc_fetch_row($rs))
 odbc_close($conn);
 echo "</table>";
 ?>
-
+```
 显示效果如图2
 ![avatar](https://github.com/Mengrou0628/databasewmr/raw/master/img/%E5%9B%BE6.2.png)
 ### php通过ODBC连接sqlite数据库
-
+```
 <?php
 $conn=odbc_connect('gpssqlite3','root','');
 if (!$conn)
@@ -95,6 +95,6 @@ while (odbc_fetch_row($rs))
 odbc_close($conn);
 echo "</table>";
 ?>
-
+```
 显示效果如图3
 ![avatar](https://github.com/Mengrou0628/databasewmr/raw/master/img/%E5%9B%BE6.3.png)
