@@ -26,7 +26,7 @@
 
 书籍细化为小说，人物传记，百科全书，反之为概化；
 
-*见图*1![avatar](https://github.com/Mengrou0628/databasewmr/blob/master/img/%E5%9B%BE2.1.jpg)
+*见图*1![avatar](https://github.com/Mengrou0628/databasewmr/blob/master/devoirs02/%E5%9B%BE1.jpg)
 
 *见图2*![avatar](https://github.com/Mengrou0628/databasewmr/blob/master/img/%E5%9B%BE2.2.jpg)
 
