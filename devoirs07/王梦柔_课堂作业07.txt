@@ -1,5 +1,6 @@
 在cmd中创建新用户
 mysql> grant usage on *.* to 'p1'@'localhost' identified by '123';
+(mysql>create user 'p1'@'localhost' identified by '123';)
 Query OK, 0 rows affected (0.06 sec)
 
 mysql> grant select,create,insert on security.user to'p1'@'localhost'with grant option;
