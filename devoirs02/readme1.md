@@ -11,9 +11,10 @@
 #### 聚集的例子
 
 客户签订合同和采购产品之间是聚集关系；
+![avatar](https://github.com/Mengrou0628/databasewmr/raw/master/img/%E8%81%9A%E9%9B%861.jpg)
 
 老师授课和使用讲义之间是聚集关系；
-
+![avatar](https://github.com/Mengrou0628/databasewmr/raw/master/img/%E8%81%9A%E9%9B%862.jpg)
 #### 弱实体的例子
 
 弱实体集“教科书”依赖于强实体集“出版社”；
